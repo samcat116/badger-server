@@ -7,11 +7,8 @@ import GraphZahlVaporSupport
 import GraphZahlFluentSupport
 
 let app = Application()
-//let tlsConfig = TLSConfiguration(
-//let postgresConfig = PostgresConfiguration(hostname: "badger-db-staging-do-user-6391433-0.a.db.ondigitalocean.com", port: 25060, username: "doadmin", password: "lnv7j08r3el9bybz", database: "defaultdb", tlsConfiguration: TLSConfiguration())
-//let databaseConfigFactory = DatabaseConfigurationFactory.postgres(configuration: postgresConfig)
-//app.databases.use(databaseConfigFactory, as: .psql)
-//try app.databases.use(.postgres(url: "postgresql://doadmin:lnv7j08r3el9bybz@badger-db-staging-do-user-6391433-0.a.db.ondigitalocean.com:25060/defaultdb?sslmode=require"), as: .psql)
+
+
 print("HEllo")
 
 let cert = try NIOSSLCertificate(file: "", format: .pem)
