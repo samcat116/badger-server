@@ -1,0 +1,11 @@
+apiVersion: skaffold/v2beta6
+kind: Config
+metadata:
+  name: server
+build:
+  artifacts:
+  - image: badger-server
+deploy:
+  kubectl:
+    manifests:
+    - K8s/deployment.yaml
