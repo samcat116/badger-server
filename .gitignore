@@ -2,3 +2,6 @@
 /.DS_Store
 /.swiftpm
 /ca-certificate.pem
+.DS_Store
+*.crt
+*.pem
